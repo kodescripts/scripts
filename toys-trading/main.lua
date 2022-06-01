@@ -6,7 +6,7 @@ local old; old = hookfunction(game.HttpGet, function(self, url)
     end
 end)
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/kodescripts/lua-cracks-cylix/main/toys-trading/loader.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kodescripts/scripts/main/toys-trading/loader.lua"))()
 
 for i,v in pairs(game.CoreGui:GetDescendants()) do
     if v.Name == "title" then
