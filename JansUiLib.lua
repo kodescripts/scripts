@@ -10,8 +10,8 @@ getgenv().tweenService = game:GetService"TweenService"
 if getgenv().library then
     getgenv().library:Unload()
 end
-
-local library = {design = getgenv().design == "kali" and "kali" or "uwuware", tabs = {}, draggable = true, flags = {}, title = "test", open = false, popup = nil, instances = {}, connections = {}, options = {}, notifications = {}, tabSize = 0, theme = {}, foldername = "kodehook_cnfgs", fileext = ".txt"}
+getgenv().titleset = "kodehook"
+local library = {design = getgenv().design == "kali" and "kali" or "uwuware", tabs = {}, draggable = true, flags = {}, title = getgenv().titleset, open = false, popup = nil, instances = {}, connections = {}, options = {}, notifications = {}, tabSize = 0, theme = {}, foldername = "kodehook_cnfgs", fileext = ".txt"}
 getgenv().library = library
 
 --Locals
